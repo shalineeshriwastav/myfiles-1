@@ -1,2 +1,0 @@
-# gdeG
-GER
