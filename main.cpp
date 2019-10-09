@@ -2,10 +2,16 @@
 using namespace std;
 int main()
 {
-    int arr[5]={3,5,1,8,9};
-    for(int i=0;i<5;i++)
+    int n;
+    int arr[n];
+    cout<<"enter the array element "<<"\n";
+    for(int k=0;k<n;k++)
     {
-        for(int j=i+1;j<=4;j++)
+    cin>>arr[k];
+    }
+    for(int i=0;i<n;i++)
+    {
+        for(int j=i+1;j<n;j++)
         {
             if(arr[i]>arr[j])
             {
