@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -9,6 +9,7 @@ int main()
     {
     cin>>arr[k];
     }
+    //loop created unless it reaches the 'n' value 
     for(int i=0;i<n;i++)
     {
         for(int j=i+1;j<n;j++)
